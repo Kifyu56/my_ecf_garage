@@ -1,8 +1,19 @@
-<!-- HEAD-->
-    
-<?php include_once "includes/head.php"; ?>
+<!DOCTYPE html>
+<html lang="fr">
 
-<!-- BODY-->
+<head>
+    <?php include_once "includes/head.php"; ?>
+</head>
 
-<!-- HEADER-->
-<?php include_once "includes/header.php"; ?>
+
+<body>
+
+    <header><?php include_once "includes/header.php"; ?></header>
+    <section>
+        
+    </section>
+    <footer class="footer-custom"><?php include_once "includes/footer.php"; ?></footer>
+
+</body>
+
+</html>
