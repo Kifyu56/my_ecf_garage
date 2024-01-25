@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: url('fonts/agbalumo/Agbalumo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('fonts/dancingScript/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Agbalumo';
+    font-size: 3em;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Agbalumo';
+    font-size: 2em;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Agbalumo';
+    font-size: 1.5em;
+    color: #000000;
+}
+
+/* Modifier le style du body */
+body {
+  background-color: #1C5D99;
+}
+
+/* Modifier le style de #dynamic-content */
+#dynamic-content {
+    background-color: #639FAB;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    font-family: cursive ;
+    font-size: 1.5em;
+}
+
+/* Modifier le style de card */
+.card {
+    background-color: #BBCDE5;
+    border: 1px solid #1C5D99;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+/* Modifier #signature */
+#signature {
+    font-family: 'DancingScript';
+    font-size: 1.5em;
+    color: #1C5D99;
+}

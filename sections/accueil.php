@@ -1,2 +1,85 @@
-<h2>Hello all</h2>
-<p>Bienvenue dans mon nouveau site, </p>
+<div class="container">
+    <h1>Accueil</h1>
+    <p>Le Garage Automobile de Vincent Parrot</p>
+
+    <div class="row align-items-center">
+        <div class="col-12">
+            <div class="card">
+                <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
+                <div class="card-body text-center">
+                    <h2 class="card-title">Chers amis de l'automobile,</h2>
+                    <p class="card-text">Je suis Vincent Parrot, le fondateur de ce garage automobile à Toulouse, une
+                        aventure débutée en 2021 qui a rapidement pris de l'ampleur grâce à notre dévouement envers la
+                        réparation automobile.Chez Garage V. Parrot, nous considérons notre atelier comme un sanctuaire
+                        de
+                        confiance pour vos précieuses voitures.
+                        Chaque véhicule qui entre chez nous est traité avec le plus grand soin, car nous savons que
+                        votre
+                        sécurité et votre
+                        satisfaction sont primordiales.
+                        <br>Bienvenue chez nous !
+                    </p>
+                    <p id="signature">Vincent Parrot</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
+                <div class="card-body text-center">
+                    <h3 class="card-title">Nos services</h3>
+                    <br>
+                    <p class="card-text">Avec plus de 15 ans d'expérience dans ce domaine, j'ai bâti ce lieu avec une
+                        vision
+                        claire : fournir des services de réparation de carrosserie et de mécanique de la plus haute
+                        qualité,
+                        tout en assurant l'entretien régulier de votre véhicule pour une performance optimale et une
+                        sécurité totale.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary btn-outline-primary btn-outline-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-11 col-lg-4">
+            <div class="card">
+                <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
+                <div class="card-body text-center">
+                    <h3 class="card-title">Véhicules d'occasion</h3>
+                    <br>
+                    <p class="card-text">Mais nous ne nous arrêtons pas là. Pour répondre à tous vos besoins, nous
+                        proposons
+                        également des véhicules d'occasion
+                        de confiance, soigneusement sélectionnés pour leur qualité.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-secondary btn-outline-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-11 col-lg-4">
+            <div class="card">
+                <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
+                <div class="card-body text-center">
+                    <h3 class="card-title">Nous contacter</h3>
+                    <br>
+                    <p class="card-text">Bien que nous fournissions un service personnalisé à chaque client, je suis
+                        conscient que pour atteindre un public
+                        plus large et continuer à croître, nous devons être présents en ligne. C'est pourquoi vous
+                        pouvez nous contacter par ici. Il y a toute les informations disponible pour nous contacter,
+                        ainsi
+                        qu'un formulaire
+                        de contact.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary btn-outline-primary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
