@@ -25,7 +25,6 @@
                 <?php
                 // Verification de l'existence de l'image
                 $bannerImgPath = "images/logo/logo.png";
-                $altText = "Logo du garage V.Parrot";
 
                 if (file_exists($bannerImgPath)) {
 
@@ -34,7 +33,7 @@
                 } else {
 
                     // Texte alternatif par défaut
-                    echo "<p>$altText</p>";
+                    echo "<p>Erreur : Impossible de charger le logo dans la baniere.</p>";
                     exit;
                 }
                 ?>

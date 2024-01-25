@@ -18,6 +18,9 @@
                     <a class="nav-link" href="/sections/usedCars.php">Voitures d'occasion</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/sections/contact.php">Contact</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/sections/login.php">Se connecter</a>
                 </li>
             </ul>

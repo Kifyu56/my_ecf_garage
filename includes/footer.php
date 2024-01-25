@@ -5,7 +5,7 @@
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h4 class="footer-heading">Contactez-moi</h4>
             <address class="list-unstyled">
-                <p>V. Parrot
+                <p>Vincent Parrot
                     <br>56930 
                     <br>France
                 </p>
@@ -17,12 +17,12 @@
         <!-- Liens rapides -->
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h4 class="footer-heading">Liens rapides</h4>
-            <ul class="list-unstyled">
-                <li><a href="quiSuisJe.php" class="footer-link">Qui suis-je ?</a></li>
-                <li><a href="ecosysteme.php" class="footer-link">Écosystème</a></li>
-                <li><a href="mesConceptions.php" class="footer-link">Mes Conceptions</a></li>
-                <li><a href="contact.php" class="footer-link">Contact</a></li>
-                <li><a href="formulaireDeDevis.php" class="footer-link">Formulaire de Devis</a></li>
+            <ul class="footer-item">
+                <li><a class="footer-link" href="/sections/accueil.php">Accueil</a></li>
+                <li><a class="footer-link" href="/sections/services.php">Services</a></li>
+                <li><a class="footer-link" href="/sections/usedCars.php">Voitures d'occasion</a></li>
+                <li><a class="footer-link" href="/sections/contact.php">Contact</a></li>
+                <li><a class="footer-link" href="/sections/login.php">Se connecter</a></li>
             </ul>
         </div>
 
