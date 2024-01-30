@@ -20,7 +20,7 @@
     <!-- Banniere-->
     <section role="banner">
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+            <div class="container-fluid text-center">
 
                 <?php
                 // Verification de l'existence de l'image
@@ -61,6 +61,8 @@
     <section id="dynamic-content">
         <!-- Contenu de la section dynamique -->
     </section>
+
+    
     <footer class="footer-custom">
         <?php
         // Verification de l'existence du fichier footer.php

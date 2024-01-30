@@ -16,7 +16,7 @@
 
         <!-- Liens rapides -->
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h4 class="footer-heading">Liens rapides</h4>
+            <h4 class="footer-heading ">Liens rapides</h4>
             <ul class="footer-item">
                 <li><a class="footer-link" href="/sections/accueil.php">Accueil</a></li>
                 <li><a class="footer-link" href="/sections/services.php">Services</a></li>

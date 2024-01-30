@@ -12,35 +12,33 @@
     font-style: normal;
 }
 
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 3em;
-    color: #000000;
-}
 
-h2 {
-    font-family: 'Agbalumo';
-    font-size: 2em;
-    color: #000000;
-}
 
-h3 {
-    font-family: 'Agbalumo';
-    font-size: 1.5em;
-    color: #000000;
-}
+
 
 /* Modifier le style du body */
 body {
-  background-color: #1C5D99;
+  background-color: #5E0B15;
 }
+
+/* Modifier le navbar */
+.navbar-custom {
+    background-color: #1C5D99;
+    font-family: 'Agbalumo';
+    font-size: 1.5em;
+    color: #070338;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+
 
 /* Modifier le style de #dynamic-content */
 #dynamic-content {
     background-color: #639FAB;
     border: 1px solid #000000;
     border-radius: 10px;
-    width: 90%;
+    width: 85%;
     margin: 10px auto;
     font-family: cursive ;
     font-size: 1.5em;
@@ -55,9 +53,62 @@ body {
     margin: 10px auto;
 }
 
+.card-title {
+    font-family: 'Agbalumo';
+    font-size: 1.5em;
+    color: #070338;
+}
+
 /* Modifier #signature */
 #signature {
     font-family: 'DancingScript';
-    font-size: 1.5em;
+    font-size: 2em;
     color: #1C5D99;
+}
+
+/* Modifier footer-custom */
+
+
+.footer-custom {
+    background-color: #f8f9fa;
+    font-family: 'Agbalumo';
+    font-size: 1.5em;
+    color: #070338;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+/*
+.footer-link {
+    color: #669973;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.footer-link:hover {
+    color: rgb(49, 228, 93);
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+*/
+
+/* Les h1, h2, h3, h4, h5, h6 */
+
+h1 {
+    font-family: 'Agbalumo';
+    font-size: 3em;
+    color: #070338;
+}
+
+h2 {
+    font-family: 'Agbalumo';
+    font-size: 2em;
+    color: #070338;
+}
+
+h4 {
+    font-family: 'Agbalumo';
+    font-size: 1.3em;
+    color: #070338;
 }

@@ -26,7 +26,7 @@
     </div>
 
     <div class="row align-items-center">
-        <div class="col-12 col-lg-4">
+        <div class="col-lg-4">
             <div class="card">
                 <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
                 <div class="card-body text-center">
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class="col-11 col-lg-4">
+        <div class="col-lg-4">
             <div class="card">
                 <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
                 <div class="card-body text-center">
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <div class="col-11 col-lg-4">
+        <div class="col-lg-4">
             <div class="card">
                 <!-- <img src="image.jpg" class="card-img-top" alt="Image"> -->
                 <div class="card-body text-center">
