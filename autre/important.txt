@@ -2,5 +2,17 @@ Utilisateur : wxqxukbk_Kifyu
 
 Mot de passe : hJ_78SN_J878S@=YNc
 
-mysql -h 127.0.0.1 -P 11807 -u wxqxukbk_Kifyu -p"hJ_78SN_J878S@=YNc" --ssl-mode=DISABLED  wxqxukbk_garage_parrot
+mysql -h 127.0.0.1 -P 11807 -u wxqxukbk_Kifyu -p --ssl-mode=DISABLED  wxqxukbk_garage_parrot
 
+
+kifyuland-1707261057113
+
+Host : 127.0.0.1
+Port : 3306
+Username : wxqxukbk_Kifyu
+Password : hJ_78SN_J878S@=YNc
+
+Host : node187-eu.n0c.com
+Port : 5022
+Username : wxqxukbk
+Password : 0~:0o5oSSSUZr!QU:0
