@@ -7,7 +7,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/sections/accueil.php">Accueil</a>
                 </li>
@@ -20,10 +20,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/sections/contact.php">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/sections/login.php">Se connecter</a>
-                </li>
             </ul>
+            <form class="d-flex">
+                <a class="btn btn-outline-success" href="/sections/login.php">Se connecter</a>
+            </form>
         </div>
     </div>
 </nav>
+
