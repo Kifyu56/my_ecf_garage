@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom" aria-label="Menu principal">
     <div class="container-fluid">
@@ -20,11 +21,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/sections/contact.php">Contact</a>
                 </li>
+
+                <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in'] && $_SESSION['user_role'] === 'admin') : ?>
+                    <!-- Onglets supplémentaires pour l'admin -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashboard_admin.php">Dashboard Admin</a>
+                    </li>
+                <?php endif; ?>
+
             </ul>
-            <form class="d-flex">
-                <a class="btn btn-outline-success" href="/sections/login.php">Se connecter</a>
+            <form class="d-flex ms-auto">
+                <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in']) : ?>
+                    <a id="logoutButton" class="btn btn-outline-danger" href="/sections/logout.php">Se déconnecter</a>
+                <?php else : ?>
+                    <a id="loginButton" class="btn btn-outline-success" href="/sections/login.php">Se connecter</a>
+                <?php endif; ?>
             </form>
         </div>
     </div>
 </nav>
-
