@@ -29,6 +29,13 @@
                     </li>
                 <?php endif; ?>
 
+                <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in'] && $_SESSION['user_role'] === 'employee') : ?>
+                    <!-- Onglets supplémentaires pour l'employee -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashboard_admin.php">Dashboard Employ</a>
+                    </li>
+                <?php endif; ?>
+
             </ul>
             <form class="d-flex ms-auto">
                 <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in']) : ?>

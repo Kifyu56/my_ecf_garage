@@ -40,6 +40,27 @@ $(document).ready(function () {
             });
     });
 
+    // Ecoute les bouton de la navBar services
+    $("a.nav-link").click(function (e) {
+
+        e.preventDefault(); // Empêche le comportement de lien par défaut
+
+        let page = $(this).attr("href"); // Obtient le lien href
+
+        $.ajax({
+            url: page,
+            success: function (data) {
+
+                // Met à jour le contenu de la section
+                $("#dynamic-content").html(data);
+
+            },
+            error: function () {
+                alert("Erreur lors du chargement de la page");
+            }
+        });
+    });
+
     // Écoute la soumission du formulaire de connexion
 
     $(document).on('submit', '#loginForm', function (e) {
