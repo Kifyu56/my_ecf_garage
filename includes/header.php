@@ -32,7 +32,7 @@
                 <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in'] && $_SESSION['user_role'] === 'employee') : ?>
                     <!-- Onglets supplémentaires pour l'employee -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/admin/dashboard_admin.php">Dashboard Employ</a>
+                        <a class="nav-link" href="/admin/dashboard_admin.php">Dashboard Utilisateur</a>
                     </li>
                 <?php endif; ?>
 

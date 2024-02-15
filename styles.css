@@ -33,8 +33,8 @@ body {
 }
 
 
-/* Modifier le style de #dynamic-content */
-#dynamic-content {
+/* Modifier le style de sections */
+.sections {
     background-color: #639FAB;
     border: 1px solid #000000;
     border-radius: 10px;
@@ -70,13 +70,34 @@ body {
 
 
 .footer-custom {
-    background-color: #f8f9fa;
+    background-color: #BBCDE5;
     font-family: 'Agbalumo';
     font-size: 1.5em;
     color: #070338;
     width: 90%;
     margin: auto;
     border-radius: 20px;
+}
+
+/* Modifier le style des horaires */
+.opening-hours table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.opening-hours th,
+.opening-hours td {
+    text-align: left;
+    padding: 8px;
+}
+
+.opening-hours th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.opening-hours td {
+    background-color: #e2e2e2;
 }
 
 

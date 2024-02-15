@@ -111,3 +111,27 @@ $(document).ready(function () {
     });
 });
 
+// Modifie les horaires d'ouverture
+document.addEventListener("DOMContentLoaded", function () {
+    const horaires = [
+        { jour: 'Lundi', heures: '9h - 18h' },
+        { jour: 'Mardi', heures: '9h - 18h' },
+        { jour: 'Mercredi', heures: '9h - 18h' },
+        { jour: 'Jeudi', heures: '9h - 18h' },
+        { jour: 'Vendredi', heures: '9h - 18h' },
+        { jour: 'Samedi', heures: '9h - 12h' },
+        { jour: 'Dimanche', heures: 'Fermé' }
+    ];
+
+    const tbody = document.getElementById('openingHoursTable').getElementsByTagName('tbody')[0];
+
+    horaires.forEach(horaire => {
+        let row = tbody.insertRow();
+        let cellJour = row.insertCell(0);
+        let cellHeures = row.insertCell(1);
+        cellJour.textContent = horaire.jour;
+        cellHeures.textContent = horaire.heures;
+    });
+});
+
+

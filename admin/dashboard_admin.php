@@ -11,6 +11,20 @@
             <option value="Autres">
         </datalist>
     </div>
+
+    <div class="mb-3">
+        <label for="name_service" class="form-label">Service</label>
+        <input class="form-control" list="datalistOptions" id="name_service" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+            <option value="Mécanique">
+            <option value="Carrosserie">
+            <option value="Maintenance">
+            <option value="Autres">
+        </datalist>
+    </div>
+
+
+
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1">
