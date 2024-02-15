@@ -40,7 +40,7 @@
                         sécurité totale.
                     </p>
                     <br>
-                    <a href="#" class="btn btn-primary btn-outline-primary btn-outline-primary">En savoir plus</a>
+                    <a href="#" class="btn btn-outline-info">En savoir plus</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                         de confiance, soigneusement sélectionnés pour leur qualité.
                     </p>
                     <br>
-                    <a href="#" class="btn btn-secondary btn-outline-primary">En savoir plus</a>
+                    <a href="#" class="btn btn-outline-info">En savoir plus</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                         de contact.
                     </p>
                     <br>
-                    <a href="#" class="btn btn-primary btn-outline-primary">En savoir plus</a>
+                    <a href="#" class="btn btn-outline-info">En savoir plus</a>
                 </div>
             </div>
         </div>

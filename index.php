@@ -64,9 +64,25 @@ error_reporting(E_ALL);
     </header>
 
 
-    <section id="dynamic-content">
+    <section class="sections" id="dynamic-content">
         <!-- Contenu de la section dynamique -->
     </section>
+
+    <section class="sections" id="dynamic-testimonials">
+        <?php
+        // Verification de l'existence du fichier testimonials.php
+        $testimonialsFilePath = "includes/testimonials.php";
+
+        if (file_exists($testimonialsFilePath)) {
+            include_once $testimonialsFilePath;
+        } else {
+            echo "Erreur : Impossible de charger la section témoignage.";
+            exit;
+        }
+
+        ?>
+    </section>
+
 
 
     <footer class="footer-custom">
