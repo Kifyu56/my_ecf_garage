@@ -67,7 +67,6 @@ $(document).ready(function () {
         e.preventDefault(); // Empêche l'envoi normal du formulaire
 
         let formData = new FormData(this);
-
         fetch('API/verifyLogin.php', {
             method: 'POST',
             body: formData
@@ -78,6 +77,7 @@ $(document).ready(function () {
                     // Actualisez la page pour refléter l'état de connexion
                     window.location.reload();
                 } else {
+                    
                     alert(result.message); // Afficher le message d'erreur
                 }
             })
