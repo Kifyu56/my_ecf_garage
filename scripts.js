@@ -3,7 +3,7 @@
 $(document).ready(function () {
 
     // Charge la page d'accueil par défaut
-    $("#dynamic-content").load("sections/accueil.php");
+    $("#dynamic-content").load("sections/accueil.html");
 
     // Ecoute la navBar
     $("a.nav-link").click(function (e) {
@@ -30,7 +30,7 @@ $(document).ready(function () {
     document.querySelector("a#loginButton").addEventListener("click", function (e) {
         e.preventDefault(); // Empêche le comportement de lien par défaut
 
-        fetch("sections/login.php")
+        fetch("sections/login.html")
             .then(response => response.text())
             .then(html => {
                 document.getElementById("dynamic-content").innerHTML = html;
@@ -77,7 +77,7 @@ $(document).ready(function () {
                     // Actualisez la page pour refléter l'état de connexion
                     window.location.reload();
                 } else {
-                    
+
                     alert(result.message); // Afficher le message d'erreur
                 }
             })

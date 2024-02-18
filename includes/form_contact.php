@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    $toEmail = "contact@kifyudevland.bzh";
+    $toEmail = "";
     $mailHeaders = "From: " . $firstName . " " . $name . "<" . $email . ">\r\n";
 
     if (mail($toEmail, $subject, $message, $mailHeaders)) {

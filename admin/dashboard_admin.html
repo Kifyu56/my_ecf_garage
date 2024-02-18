@@ -1,5 +1,8 @@
+
 <div class="container-fluid">
-    <h1> Hellooooooo</h1>
+
+    <h1 class="mt-4">Dashboard</h1>
+    <p>Bienvenue sur votre espace administrateur M.</p> <!-- A modifier pour afficher le nom de l'admin connecté  -->
 
     <!-- Formulaire de configuration des services -->
     <div class="card mb-3">
@@ -9,7 +12,9 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">Configuration des prestation</h5>
+
+                    <h5 class="card-title">Configuration des prestations</h5>
+
                     <form id="serviceConfigForm">
 
                         <!-- Choix du Services -->
@@ -26,7 +31,7 @@
                         <!-- Choix de la prestation -->
                         <div class="mb-3">
                             <label for="prestation" class="form-label">Prestation</label>
-                            <input class="form-control" list="datalistOptions" id="prestation">
+                            <input class="form-control" id="prestation">
 
                         </div>
 
@@ -39,13 +44,13 @@
                         <!-- Prix de la prestation -->
                         <div class="mb-3">
                             <label for="prix" class="form-label">Prix</label>
-                            <input type="number" class="form-control" id="prix">
+                            <input type="float" class="form-control" id="prestationPrice">
                         </div>
 
                         <!-- Temps de la prestation -->
                         <div class="mb-3">
                             <label for="temps" class="form-label">Temps</label>
-                            <input type="number" class="form-control" id="temps">
+                            <input type="number" class="form-control" id="prestationTime">
                         </div>
 
                         <!-- Boutons de validation -->
@@ -60,9 +65,7 @@
                                 <button type="button" class="btn btn-warning">Modifier</button>
                             </div>
                         </div>
-
                     </form>
-
                 </div>
             </div>
         </div>
@@ -129,9 +132,7 @@
                                 <button type="submit" class="btn btn-primary">Enregistrer</button>
                             </div>
                         </div>
-
                     </form>
-
                 </div>
             </div>
         </div>

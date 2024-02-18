@@ -20,7 +20,7 @@
 try {
     $pdo = new PDO("mysql:host=127.0.0.1;port=3306;dbname=garage_parrot", 'root', '0~:0o5oSSSUZr!QU:0');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
+    } catch (PDOException $e) {
     http_response_code(500); // Code d'état HTTP pour une erreur serveur
     echo json_encode(['success' => false, 'message' => "Erreur de connexion : " . $e->getMessage()]);
     exit; // Arrête l'exécution du script

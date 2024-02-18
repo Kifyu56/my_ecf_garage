@@ -1,3 +1,4 @@
+
 <?php
 
 session_start(); // Commencez la session
@@ -5,15 +6,11 @@ session_start(); // Commencez la session
 // En-tête pour autoriser les requêtes depuis n'importe quelle origine
 header('Content-Type: application/json');
 
-
-include "bdd_garageVparrot.php";
-
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $identifiant = $_POST['user_identifiant'];
+    $identifiant = $_POST['user_id'];
     $password = $_POST['password'];
 
-    $stmt = $pdo->prepare("SELECT * FROM users WHERE user_id = :identifiant");
+    $stmt = $pdo->prepare("SELECT * FROM USERS WHERE user_id = :identifiant");
     $stmt->bindParam(':identifiant', $identifiant);
     $stmt->execute();
 
