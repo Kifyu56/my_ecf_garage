@@ -3,6 +3,8 @@
 
 session_start(); // Commencez la session
 
+require_once 'bdd_garageVparrot.php'; // Inclure le fichier de connexion à la base de données
+
 // En-tête pour autoriser les requêtes depuis n'importe quelle origine
 header('Content-Type: application/json');
 
@@ -19,6 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($user && password_verify($password, $user['password_hash'])) {
         $_SESSION['user_role'] = $user['role'];
         $_SESSION['is_logged_in'] = true;
+        $_SESSION['user_id'] = $user['user_id'];
+        //echo json_encode(['success' => true, 'message' => 'Connexion réussie.']);
 
     } else {
         http_response_code(401);

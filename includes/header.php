@@ -25,18 +25,18 @@
                 <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in'] && $_SESSION['user_role'] === 'admin') : ?>
                     <!-- Onglets supplémentaires pour l'admin -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/admin/dashboard_admin.php">Dashboard Admin</a>
+                        <a class="nav-link" href="/admin/dashboard_admin.html">Dashboard Admin</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/admin/dashboard_employee.php">Dashboard Utilisateur</a>
+                        <a class="nav-link" href="/admin/dashboard_employee.html">Dashboard Utilisateur</a>
                     </li>
                 <?php endif; ?>
 
                 <?php if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in'] && $_SESSION['user_role'] === 'employee') : ?>
                     <!-- Onglets supplémentaires pour l'employee -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/admin/dashboard_employee.php">Dashboard Utilisateur</a>
+                        <a class="nav-link" href="/admin/dashboard_employee.html">Dashboard Utilisateur</a>
                     </li>
                 <?php endif; ?>
 
