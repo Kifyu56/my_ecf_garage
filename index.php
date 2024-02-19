@@ -1,16 +1,16 @@
 <?php
+session_start();
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
+
     <?php
     // Verification de l'existence du fichier head.php
-    $headFilePath = "includes/head.php";
+    $headFilePath = "includes/head.html";
 
     if (file_exists($headFilePath)) {
         include_once $headFilePath;

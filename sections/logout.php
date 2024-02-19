@@ -2,5 +2,5 @@
 session_start();
 session_unset();
 session_destroy();
-header('Location: /sections/accueil.php');
-exit;
+
+echo json_encode(['success' => true]);
