@@ -1,6 +1,8 @@
 <?php
 require_once 'bdd_garageVparrot.php'; // Connexion PDO
 
+session_start();
+
 // S'assurer que le contenu reçu est de type JSON
 header("Content-Type: application/json");
 
@@ -8,7 +10,7 @@ header("Content-Type: application/json");
 $data = json_decode(file_get_contents("php://input"), true);
 
 // Vérifier que tous les champs obligatoires sont présents
-$requiredFields = ['email', 'password', 'last_name', 'first_name', 'phone', 'birthdate', 'user_id'];
+$requiredFields = ['email', 'password', 'last_name', 'first_name', 'phone', 'birthdate', 'user_identifiant'];
 foreach ($requiredFields as $field) {
     if (empty($data[$field])) {
         // Un champ est manquant, arrêtez le script, en précisant le champ.
@@ -18,10 +20,10 @@ foreach ($requiredFields as $field) {
 }
 
 // Vérifiez si l'email ou l'user_identifiant existe déjà
-$stmt = $conn->prepare("SELECT user_id FROM USERS WHERE email = ? OR user_identifiant = ?");
-$stmt->execute([$data['email'], $data['user_identifiant']]);
+$stmt = $conn->prepare("SELECT user_id FROM USERS WHERE email = ? OR user_id = ?");
+$stmt->execute([$data['email'], $data['user_id']]);
 if ($stmt->fetch()) {
-    echo json_encode(["success" => false, "message" => "L'email ou l'identifiant est déjà utilisé."]);
+    echo json_encode(["success" => false, "message" => "L'email ou l'id est déjà utilisé."]);
     exit;
 }
 
