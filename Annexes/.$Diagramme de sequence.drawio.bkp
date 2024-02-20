@@ -1,0 +1,332 @@
+<mxfile host="Electron" modified="2024-02-13T11:48:57.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="i4DmlFK8dlvmZg1CDRzC" version="23.0.2" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="3962" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VVr4ddxcXiETkORxV_0u-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="40" width="20" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-2" value="Web Site" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="-130" y="40" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-2" vertex="1">
+          <mxGeometry x="45" y="160" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-50" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-2" vertex="1">
+          <mxGeometry x="45" y="880" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-2" vertex="1">
+          <mxGeometry x="45" y="1160" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-2" vertex="1">
+          <mxGeometry x="45" y="1320" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="PPuS1UvtcMFOZk0p2lAO-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VVr4ddxcXiETkORxV_0u-2">
+          <mxGeometry x="45" y="560" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-3" value="DataBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="590" y="40" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-3" vertex="1">
+          <mxGeometry x="45" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-3" vertex="1">
+          <mxGeometry x="45" y="960" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-3" vertex="1">
+          <mxGeometry x="45" y="1400" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PPuS1UvtcMFOZk0p2lAO-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VVr4ddxcXiETkORxV_0u-3">
+          <mxGeometry x="45" y="640" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-4" value="Naviguer sur la page voiture d&#39;occasion" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-7" value="Clique sur l&#39;onglet voiture d&#39;occasion&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" target="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry x="0.0021" width="60" relative="1" as="geometry">
+            <mxPoint x="-580.125" y="160.00000000000003" as="sourcePoint" />
+            <mxPoint x="-320.5" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-9" value="Envoyer usedCar_database" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="y2RF3IuWmKMYHtkYPuZX-43" target="y2RF3IuWmKMYHtkYPuZX-45" edge="1">
+          <mxGeometry x="-0.0243" width="60" relative="1" as="geometry">
+            <mxPoint x="285" y="310" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-11" value="Traite l&#39;information reçu par la bdd, format Json" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" source="y2RF3IuWmKMYHtkYPuZX-42" target="y2RF3IuWmKMYHtkYPuZX-43" edge="1">
+          <mxGeometry x="0.0007" width="60" relative="1" as="geometry">
+            <mxPoint x="-70" y="360" as="sourcePoint" />
+            <mxPoint x="309.5" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-14" value="PDO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="230" y="40" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-14" vertex="1">
+          <mxGeometry x="45" y="920" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-14" vertex="1">
+          <mxGeometry x="45" y="200" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="VVr4ddxcXiETkORxV_0u-14" vertex="1">
+          <mxGeometry x="45" y="1360" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PPuS1UvtcMFOZk0p2lAO-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VVr4ddxcXiETkORxV_0u-14">
+          <mxGeometry x="45" y="600" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VVr4ddxcXiETkORxV_0u-15" value="Filtre les voitures d&#39;occasion" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-1" value="Prepare la requete" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" target="y2RF3IuWmKMYHtkYPuZX-43" edge="1">
+          <mxGeometry x="-0.0025" width="60" relative="1" as="geometry">
+            <mxPoint x="-75" y="239.5" as="sourcePoint" />
+            <mxPoint x="309.5" y="239.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-3" value="Mis a jour de la page, avec la nouvelle selection&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" edge="1" target="PPuS1UvtcMFOZk0p2lAO-5" source="fD5UcUB_QsQQZMnMGFJ1-4">
+          <mxGeometry x="0.0007" width="60" relative="1" as="geometry">
+            <mxPoint x="-330.0026315789475" y="800" as="sourcePoint" />
+            <mxPoint x="-109.39999999999998" y="800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-5" value="Remplir le formulaire de la voiture&amp;nbsp;sélectionné" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="840" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-6" value="Remplit le formulaire de contact&amp;nbsp;&amp;nbsp;(prérempli avec ID véhicule et objet)" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-580.6764705882351" y="1160" as="sourcePoint" />
+            <mxPoint x="-360.5" y="1160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-7" value="Affiche message de succès" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" source="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry x="0.0007" width="60" relative="1" as="geometry">
+            <mxPoint x="-420" y="1680" as="sourcePoint" />
+            <mxPoint x="-85.00000000000006" y="1680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-8" value="Visitor" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-9" value="Selectionne une voiture" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" target="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry x="0.0015" y="-1" width="60" relative="1" as="geometry">
+            <mxPoint x="-580.0033333333336" y="879.4099999999999" as="sourcePoint" />
+            <mxPoint x="-80.50000000000045" y="879.4099999999999" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-10" value="Recherche dans la bdd les infos complémentaires" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry x="0.027" width="60" relative="1" as="geometry">
+            <mxPoint x="285" y="999.83" as="sourcePoint" />
+            <mxPoint x="635" y="999.83" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-11" value="Envoi les infos demandé" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry x="0.0256" y="1" width="60" relative="1" as="geometry">
+            <mxPoint x="285" y="1039.83" as="sourcePoint" />
+            <mxPoint x="635" y="1039.83" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-12" value="Affiche la page avec la fiche détaillé de la voiture&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry x="0.0007" width="60" relative="1" as="geometry">
+            <mxPoint x="-360.33333333333326" y="1120" as="sourcePoint" />
+            <mxPoint x="-85" y="1120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-13" value="Remplit et soumet le filtre" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry x="-0.0588" width="60" relative="1" as="geometry">
+            <mxPoint x="-580" y="560" as="sourcePoint" />
+            <mxPoint x="-360.5" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-17" value="Envoi le formulaire en bdd" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="y2RF3IuWmKMYHtkYPuZX-59" target="y2RF3IuWmKMYHtkYPuZX-58" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="310" y="1520" as="sourcePoint" />
+            <mxPoint x="690" y="1520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-20" value="Soumet le formuaire" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" target="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-580.5" y="1320" as="sourcePoint" />
+            <mxPoint x="-85" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-24" value="Affiche la page de voiture d&#39;occasion" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fD5UcUB_QsQQZMnMGFJ1-4" target="y2RF3IuWmKMYHtkYPuZX-42" edge="1">
+          <mxGeometry x="0.0055" width="60" relative="1" as="geometry">
+            <mxPoint x="-579.995" y="400" as="sourcePoint" />
+            <mxPoint x="-250" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-31" value="Prepare la requete" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-75" y="960" as="sourcePoint" />
+            <mxPoint x="275" y="960" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-32" value="Traitement de l&#39;info" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-75" y="1080" as="sourcePoint" />
+            <mxPoint x="275" y="1080" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-36" value="erreur : manque information valide sur le formulaire" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-360.07142857142867" y="1240" as="targetPoint" />
+            <mxPoint x="-85" y="1240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-37" value="Formulaire complet" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-360.07142857142867" y="1280" as="sourcePoint" />
+            <mxPoint x="-85" y="1280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-38" value="Requete pour envoyer formulaire dans la bdd" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" target="y2RF3IuWmKMYHtkYPuZX-59" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-75" y="1400" as="sourcePoint" />
+            <mxPoint x="270" y="1400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-39" value="Requete pour verifier si le formulaire est bien dans la bdd" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="285" y="1480" as="sourcePoint" />
+            <mxPoint x="635" y="1480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-40" value="Envoi la réponse" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" parent="1" source="y2RF3IuWmKMYHtkYPuZX-59" target="y2RF3IuWmKMYHtkYPuZX-58" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="290" y="1520" as="sourcePoint" />
+            <mxPoint x="620" y="1520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-61" value="erreur :&amp;nbsp; Formulaire non enregistré" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.007;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="y2RF3IuWmKMYHtkYPuZX-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-75" y="1559.9999999999998" as="targetPoint" />
+            <mxPoint x="305" y="1559.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="1560.36" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-62" value="Formulaire enregistré" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;exitX=0.917;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-75" y="1640" as="sourcePoint" />
+            <mxPoint x="275" y="1639.9999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2RF3IuWmKMYHtkYPuZX-64" value="Affiche message : veuillez recommencer ultérieurement" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-420" y="1600" as="targetPoint" />
+            <mxPoint x="-85" y="1599.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-4" value="Interface Utilisateur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="-410" y="40" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-5" value="requete Ajax fichier usedCars.php" style="html=1;verticalAlign=bottom;endArrow=classic;curved=0;rounded=0;endFill=1;" parent="1" source="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-319.93478260869574" y="200" as="sourcePoint" />
+            <mxPoint x="-85" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-6" value="Récupérer usedCar_database" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" parent="1" target="y2RF3IuWmKMYHtkYPuZX-45" edge="1">
+          <mxGeometry x="0.027" width="60" relative="1" as="geometry">
+            <mxPoint x="285" y="280" as="sourcePoint" />
+            <mxPoint x="635" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-8" value="requete Fetch filtre la liste" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="fD5UcUB_QsQQZMnMGFJ1-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-240" y="685" as="sourcePoint" />
+            <mxPoint x="-85.00000000000023" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-9" value="Retourne la liste filtré" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="720" as="targetPoint" />
+            <mxPoint x="635" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-13" value="requete Fetch ficheDétaillé." style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="VVr4ddxcXiETkORxV_0u-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-360" y="920" as="sourcePoint" />
+            <mxPoint x="-280" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-14" value="Vérification du formulaire" style="html=1;verticalAlign=bottom;endArrow=classic;curved=0;rounded=0;endFill=1;" parent="1" target="y2RF3IuWmKMYHtkYPuZX-52" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-360" y="1200" as="sourcePoint" />
+            <mxPoint x="-280" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-340" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-15" value="Requete Ajax" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="y2RF3IuWmKMYHtkYPuZX-53" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-360" y="1360" as="sourcePoint" />
+            <mxPoint x="-110" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-16" value="envoi une notification aux employées" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-75" y="1720" as="sourcePoint" />
+            <mxPoint x="955" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fD5UcUB_QsQQZMnMGFJ1-17" value="Systeme de Notification" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="910" y="40" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="PPuS1UvtcMFOZk0p2lAO-4" value="Récupérer usedCar_database" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1" target="PPuS1UvtcMFOZk0p2lAO-1">
+          <mxGeometry x="0.027" width="60" relative="1" as="geometry">
+            <mxPoint x="284.9999999999998" y="680" as="sourcePoint" />
+            <mxPoint x="634.9999999999998" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPuS1UvtcMFOZk0p2lAO-6" value="Prepare la requete" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=classic;startSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0025" width="60" relative="1" as="geometry">
+            <mxPoint x="-75" y="640" as="sourcePoint" />
+            <mxPoint x="275" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPuS1UvtcMFOZk0p2lAO-7" value="Traite l&#39;information reçu par la bdd, format Json" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" edge="1" parent="1" source="PPuS1UvtcMFOZk0p2lAO-5">
+          <mxGeometry x="0.0007" width="60" relative="1" as="geometry">
+            <mxPoint x="-70" y="760" as="sourcePoint" />
+            <mxPoint x="280" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="760" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

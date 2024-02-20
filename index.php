@@ -88,7 +88,7 @@ error_reporting(E_ALL);
     <footer class="footer-custom">
         <?php
         // Verification de l'existence du fichier footer.php
-        $footerFilePath = "includes/footer.php";
+        $footerFilePath = "includes/footer.html";
 
         if (file_exists($footerFilePath)) {
             include_once $footerFilePath;

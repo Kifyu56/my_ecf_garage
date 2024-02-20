@@ -78,34 +78,6 @@ $(document).ready(function () {
         });
     });
 
-
-    // Écoute la soumission du formulaire de connexion
-    $(document).on('submit', '#loginForm', function (e) {
-        e.preventDefault(); // Empêche l'envoi normal du formulaire
-
-        $.ajax({
-            url: 'API/verifyLogin.php', // script PHP qui traite la connexion
-            type: 'POST',
-            data: $(this).serialize(), // Sérialise les données du formulaire pour l'envoi
-            dataType: 'json', // Le type de données que l'on attend en retour
-            success: function (response) {
-
-                if (response.success) {
-                    // Recharge la page pour refléter l'état connecté de l'utilisateur
-                    window.location.reload(true);
-                } else {
-                    alert(response.message || "Une erreur est survenue lors de la tentative de connexion."); // Affiche un message d'erreur si la connexion échoue
-                }
-            },
-            error: function (xhr, status, error) {
-                // Gestion des erreurs de la requête AJAX
-                alert("Erreur de connexion : " + xhr.status + " " + error);
-            }
-        });
-    });
-
-
-
     // Écoute les clics sur les boutons dans la section des services
     document.addEventListener("DOMContentLoaded", function () {
         // Liste des ID des boutons pour les écouteurs d'événements

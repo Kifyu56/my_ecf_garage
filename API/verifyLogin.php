@@ -1,9 +1,11 @@
 
 <?php
 
-session_start(); // Commencez la session
+// Commencez la session
+session_start();
 
-require_once 'bdd_garageVparrot.php'; // Inclure le fichier de connexion à la base de données
+// Inclure le fichier de connexion à la base de données
+require_once 'bdd_garageVparrot.php';
 
 // En-tête pour autoriser les requêtes depuis n'importe quelle origine
 header('Content-Type: application/json');
@@ -19,10 +21,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($user && password_verify($password, $user['password_hash'])) {
+
+        // Régénère l'ID de session pour la sécurité
+        session_regenerate_id(true);
+
+        // Stocker les informations de l'utilisateur dans la session
         $_SESSION['user_role'] = $user['role'];
         $_SESSION['is_logged_in'] = true;
         $_SESSION['user_id'] = $user['user_id'];
-        //echo json_encode(['success' => true, 'message' => 'Connexion réussie.']);
+
+        // Gère l'option "Se souvenir de moi"
+        if (!empty($_POST['rememberMe'])) {
+            // Définir la durée de vie du cookie, par exemple 30 jours
+            $lifetime = 60;
+            setcookie(session_name(), session_id(), time() + $lifetime, "/", "", isset($_SERVER["HTTPS"]), true);
+        }
+
+        echo json_encode(['success' => true, 'message' => 'Connexion réussie.']);
 
     } else {
         http_response_code(401);
