@@ -2,9 +2,9 @@
 
 // Connexion à la base de données
 $host = '127.0.0.1'; 
-$db = 'nom_de_votre_base';
-$user = 'utilisateur_de_la_base';
-$pass = 'mot_de_passe';
+$db = '?????';
+$user = '?????';
+$pass = '?????';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
